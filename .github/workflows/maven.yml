@@ -1,0 +1,27 @@
+# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
+
+name: Build with Maven
+
+on:
+  push:
+    branches: [ main ]  # Change "main" to your main branch name if different
+  pull_request:
+    branches: [ main ]  # Fixed syntax for pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Or another desired runner OS
+
+    steps:
+      - uses: actions/checkout@v3  # Checkout your code from the repository
+      - name: Set up JDK 11  # Change version if needed
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'temurin'  # Added required distribution parameter
+          cache: 'maven'  # Optionally cache Maven packages
+      - name: Build with Maven
+        run: mvn package -DskipTests  # Optionally add -DskipTests to skip tests
+      - name: Run tests with Maven
+        run: mvn test

@@ -1,0 +1,6 @@
+Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private
+"new BostonEvent",04/25/2025,04:00 PM,04/25/2025,05:00 PM,False,"","",True
+"NewIndiaEvent",04/26/2025,08:30 PM,04/27/2025,08:29 PM,True,"","Paris",False
+"NewIndiaEvent",04/27/2025,08:30 PM,04/28/2025,08:29 PM,True,"","Paris",False
+"NewIndiaEvent",04/28/2025,08:30 PM,04/29/2025,08:29 PM,True,"","Paris",False
+"NewIndiaEvent",04/29/2025,08:30 PM,04/30/2025,08:29 PM,True,"","Paris",False

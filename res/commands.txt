@@ -1,0 +1,81 @@
+create event "First Lecture" from 2025-06-01T09:30 to 2025-06-01T10:30 description "My first Lecture" location University --public
+
+print events from 2025-06-01T00:00 to 2025-06-30T23:59
+
+create event Running from 2025-06-02T17:30 to 2025-06-02T19:30 repeats MTWRFSU until 2025-06-10T23:00 location Road
+
+print events from 2025-06-01T00:00 to 2025-06-30T23:59
+
+create event "Second Lab" from 2025-06-11T11:30 description "My second Lecture" location "All day computer lab"
+
+create event "3rd Lecture" from 2025-06-12T09:45 to 2025-06-12T10:30 description "My last Lecture" location University
+
+create event Football from 2025-06-13T17:30 to 2025-06-13T19:30 repeats MTR until 2025-06-30T23:00 location wembleyStadium
+
+print events on 2025-06-13
+
+edit event location "First Lecture" from 2025-06-01T09:30 to 2025-06-01T10:30 with "Boylston St"
+
+create event Cricket to 2025-06-12T16:00 from 2025-06-12T15:30 location "Garden pitch" repeats SU for 2 times
+
+print events from 2025-06-01T00:00 to 2025-06-30T23:59
+
+edit events startDateTime Football from 2025-06-24T17:30 with 2025-06-24T16:30
+
+edit events location Cricket "Main Stadium"
+
+print events from 2025-06-01T00:00 to 2025-06-30T23:59
+
+show status on 2025-06-25T16:35
+
+show status on 2025-06-25T15:35
+
+create calendar --name BostonNew --timezone America/New_York
+
+use calendar --name BostonNew
+
+create event "new BostonEvent" from 2025-03-25T10:00 to 2025-03-25T11:00
+
+print events on 2025-03-25
+
+copy event "new BostonEvent" on 2025-03-25T10:00 --target default to 2025-03-26T14:00
+
+use calendar --name default
+
+print events on 2025-03-26
+
+edit calendar --name BostonNew --property name NewIndia
+
+use calendar --name NewIndia
+
+edit calendar --name NewIndia --property timezone Asia/Kolkata
+
+print events on 2025-03-25
+
+create event NewIndiaEvent from 2025-03-27 repeats MTWRFSU until 2025-03-31 location Mumbai --public
+
+print events from 2025-03-01T00:00 to 2025-03-30T23:59
+
+create calendar --name NewParis --timezone Europe/Paris
+
+copy events between 2025-03-01 and 2025-03-30 --target NewParis to 2025-04-01
+
+use calendar --name NewParis
+
+edit events location NewIndiaEvent Paris
+
+print events from 2025-04-01T00:00 to 2025-04-30T23:59
+
+export cal ParisCal.csv
+
+use calendar --name NewIndia
+
+export cal IndiaCal.csv
+
+use calendar --name default
+
+create event "Long Span2" from 2025-07-02T13:00 to 2025-07-04T23:59
+
+export cal DefaultCal.csv
+
+exit

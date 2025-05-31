@@ -1,0 +1,2 @@
+invalidCommand this should fail
+exit

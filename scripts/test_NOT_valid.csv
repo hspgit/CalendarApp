@@ -1,0 +1,4 @@
+Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private
+"new BostonEvent",04/25/2025,04:00 PM,04/25/2025,05:00 PM,False,"","",True
+whatNow,startTime,08:30 PM,04/04/2025,08:29 PM,boolStr,dont create,"Paris",False
+"second BostonEvent",04/15/2025,04:00 PM,04/15/2025,05:00 PM,False,"","",True

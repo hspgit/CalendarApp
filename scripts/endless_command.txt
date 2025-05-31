@@ -1,0 +1,1 @@
+create event evName from 2019-01-01T00:00 to 2019-01-01T00:00

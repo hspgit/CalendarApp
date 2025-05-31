@@ -1,0 +1,27 @@
+Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private
+"Running",06/02/2025,05:30 PM,06/02/2025,07:30 PM,False,"","Road",True
+"Running",06/03/2025,05:30 PM,06/03/2025,07:30 PM,False,"","Road",True
+"Running",06/04/2025,05:30 PM,06/04/2025,07:30 PM,False,"","Road",True
+"Running",06/05/2025,05:30 PM,06/05/2025,07:30 PM,False,"","Road",True
+"Running",06/06/2025,05:30 PM,06/06/2025,07:30 PM,False,"","Road",True
+"Running",06/07/2025,05:30 PM,06/07/2025,07:30 PM,False,"","Road",True
+"Running",06/08/2025,05:30 PM,06/08/2025,07:30 PM,False,"","Road",True
+"Running",06/09/2025,05:30 PM,06/09/2025,07:30 PM,False,"","Road",True
+"Running",06/10/2025,05:30 PM,06/10/2025,07:30 PM,False,"","Road",True
+
+"Second Lab",06/11/2025,12:00 AM,06/11/2025,11:59 PM,True,"My second Lecture","All day computer lab",True
+"3rd Lecture",06/12/2025,09:45 AM,06/12/2025,10:30 AM,False,"My last Lecture","University",True
+"First Lecture",06/01/2025,09:30 AM,06/01/2025,10:30 AM,False,"My first Lecture","Boylston St",False
+"Football",06/16/2025,05:30 PM,06/16/2025,07:30 PM,False,"","wembleyStadium",True
+"Football",06/17/2025,05:30 PM,06/17/2025,07:30 PM,False,"","wembleyStadium",True
+"Football",06/19/2025,05:30 PM,06/19/2025,07:30 PM,False,"","wembleyStadium",True
+"Football",06/23/2025,05:30 PM,06/23/2025,07:30 PM,False,"","wembleyStadium",True
+"Football",06/24/2025,04:30 PM,06/24/2025,07:30 PM,False,"","wembleyStadium",True
+"Football",06/26/2025,04:30 PM,06/26/2025,07:30 PM,False,"","wembleyStadium",True
+"Football",06/30/2025,04:30 PM,06/30/2025,07:30 PM,False,"","wembleyStadium",True
+
+"Cricket",06/14/2025,03:30 PM,06/14/2025,04:00 PM,False,"","Main Stadium",True
+"Cricket",06/15/2025,03:30 PM,06/15/2025,04:00 PM,False,"","Main Stadium",True
+
+"new BostonEvent",03/26/2025,02:00 PM,03/26/2025,03:00 PM,False,"","",True
+"Long Span2",07/02/2025,01:00 PM,07/04/2025,11:59 PM,False,"","",True
