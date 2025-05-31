@@ -1,4 +1,4 @@
-# pdp-group-assignment: Calendar application
+# Calendar application
 
 ## How to run the program
 
